@@ -2,6 +2,15 @@
 
 A lightweight, concurrency-safe Layer 4 (TCP) Load Balancer written in Go. It distributes incoming TCP traffic across multiple backend servers using a **Round-Robin** algorithm, continuously monitors backend health via periodic TCP probes, and dynamically loads runtime configurations from a `config.yaml` file.
 
+---
+
+## 📖 Technical Deep Dive & Write-up
+
+I wrote a detailed technical article explaining the internal architecture, low-level socket handling, and concurrency model used in this L4 Load Balancer project. Check it out on LinkedIn:
+
+👉 **[ L4 Load Balancer ](https://lnkd.in/p/dbfGi7sj)**
+
+
 ## ✨ Features
 
 - **Layer 4 (TCP) Proxying:** High-speed bi-directional data streams streaming via `io.Copy`.
